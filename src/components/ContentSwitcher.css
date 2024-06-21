@@ -1,0 +1,27 @@
+/* src/ContentSwitcher.css */
+.button-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  
+  .button-container button {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    background-color: #ba4442;
+    transition: background-color 0.3s;
+    color: white;
+    font-size: 1.2em;
+  }
+  
+  .button-container button.active {
+    background-color: #5b2630;
+    color: white;
+  }
+  
+  .content {
+    font-size: 18px;
+  }
+  

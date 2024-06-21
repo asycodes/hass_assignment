@@ -1,0 +1,70 @@
+.reference{
+    color:white;
+}/* src/Template.css */
+.template-container {
+
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f7faff;
+  }
+  
+  .title {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .intro {
+    font-size: 1em;
+    margin-bottom: 20px;
+  }
+  
+  .arguments {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .arguments .for, .arguments .against {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+
+  .for{
+    background-color: #fff;
+  }
+  
+  .arguments h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  /* Button Styles */
+  button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #D32F2F; /* Primary Button Background */
+    color: #ffffff; /* Primary Button Text */
+    transition: background-color 0.3s;
+  }
+  
+  button:hover, button:focus {
+    background-color: #B71C1C; /* Highlighted Button Background */
+  }
+  
+
+  #mapcontainer{
+    height: 100%;
+    width: 100%;
+    
+  }
+  
+  .mapWrapper{
+    height: 600px;
+    width: 800px;
+    margin: auto;
+  }

@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+// src/App.js
+import React from 'react';
+import ContentSwitcher from './components/ContentSwitcher';
+import './App.css'; // Import the CSS file for styling
+import Thesis from './components/Thesis';
+import Landing from './components/Landing';
+import Facts from './components/Facts';
+import References from './components/References';
+import Connector from './components/Connector';
+import NaysayersButtons from './components/NaysayersButtons'
+import Conclusion from './components/Conclusion'
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Landing/>
+      <Facts/>
+      <Thesis/>
+      <ContentSwitcher />
+      <Connector/>
+      <NaysayersButtons/>
+      <Conclusion/>
+      <References/>
     </div>
   );
-}
+};
 
 export default App;
