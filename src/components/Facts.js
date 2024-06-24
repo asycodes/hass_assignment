@@ -55,16 +55,16 @@ const Facts = () => {
         <div className="chart-wrapper">
           <div className="chart-box">
             <canvas id="donut"></canvas>
-            <p className='referencetext'>Data taken from Nedopil (2024), representing number of participating countries in each income group.</p>
+            <p className='referencetext'>Data taken from Nedopil (2024, page 23), representing number of participating countries in each income group.</p>
           </div>
-          <div className="chart-text">According to an investment report (Nedopil, 2024), about 50% of the countries involved with the BRI projects are developing countries (low to lower middle) </div>
+          <div className="chart-text">According to an investment report (Nedopil, 2024 pg 23), about 50% of the countries involved with the BRI projects are developing countries (low to lower middle) </div>
         </div>
         <div className="chart-wrapper">
           <div className="chart-box">
             <canvas id="pie"></canvas>
-            <p className='referencetext'>Data taken from Nedopil (2024), representing the total expenditure in the BRI projects</p>
+            <p className='referencetext'>Data taken from Nedopil (2024, page 7), representing the total expenditure in the BRI projects</p>
           </div>
-          <div className="chart-text">In the same investment report (Nedopil, 2024), it also mentioned that total accumulated investments on BRI projects has went past 1 Trillion dollars after 10 years.</div>
+          <div className="chart-text">In the same investment report (Nedopil, 2024 pg 7), it also mentioned that total accumulated investments on BRI projects has went past 1 Trillion dollars after 10 years.</div>
         </div>
       </div>
     </div>
