@@ -30,7 +30,7 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 500px;
+    height: fit-content;
   }
   
   .chart-box canvas {

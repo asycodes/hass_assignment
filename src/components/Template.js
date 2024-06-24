@@ -95,7 +95,39 @@ const Template = ({ section }) => {
             { 'id': 'SC' }, { 'id': 'SL' }, { 'id': 'SG' }, { 'id': 'SX' }, { 'id': 'SK' },
             { 'id': 'SI' }, { 'id': 'SB' }, { 'id': 'SO' }, { 'id': 'ZA' }, { 'id': 'KR' },
             { 'id': 'SS' }, { 'id': 'ES' }, { 'id': 'LK' }, { 'id': 'SD' }, { 'id': 'SR' },
-            { 'id': 'SJ'  },{ 'id': 'PK', 'value': 26.6 },
+            { 'id': 'SJ'  },{ 'id': 'US' }, { 'id': 'CA' }, { 'id': 'MX' }, { 'id': 'BR' }, { 'id': 'AR' }, 
+            { 'id': 'CO' }, { 'id': 'VE' }, { 'id': 'PE' }, { 'id': 'CL' }, { 'id': 'BO' }, 
+            { 'id': 'PY' }, { 'id': 'UY' }, { 'id': 'GY' }, { 'id': 'SR' }, { 'id': 'EC' },
+            { 'id': 'BB' }, { 'id': 'TT' }, { 'id': 'JM' }, { 'id': 'BS' }, { 'id': 'HT' }, 
+            { 'id': 'DO' }, { 'id': 'CU' }, { 'id': 'BZ' }, { 'id': 'GT' }, { 'id': 'SV' }, 
+            { 'id': 'HN' }, { 'id': 'NI' }, { 'id': 'CR' }, { 'id': 'PA' }, { 'id': 'RU' }, 
+            { 'id': 'CN' }, { 'id': 'IN' }, { 'id': 'ID' }, { 'id': 'PK' }, { 'id': 'BD' },
+            { 'id': 'JP' }, { 'id': 'PH' }, { 'id': 'VN' }, { 'id': 'TH' }, { 'id': 'MY' }, 
+            { 'id': 'SG' }, { 'id': 'KR' }, { 'id': 'KH' }, { 'id': 'LA' }, { 'id': 'MM' }, 
+            { 'id': 'MN' }, { 'id': 'KP' }, { 'id': 'LK' }, { 'id': 'NP' }, { 'id': 'BT' }, 
+            { 'id': 'MV' }, { 'id': 'AF' }, { 'id': 'IR' }, { 'id': 'IQ' }, { 'id': 'SY' }, 
+            { 'id': 'JO' }, { 'id': 'LB' }, { 'id': 'IL' }, { 'id': 'PS' }, { 'id': 'SA' }, 
+            { 'id': 'YE' }, { 'id': 'OM' }, { 'id': 'AE' }, { 'id': 'QA' }, { 'id': 'KW' }, 
+            { 'id': 'BH' }, { 'id': 'CY' }, { 'id': 'TR' }, { 'id': 'KZ' }, { 'id': 'UZ' }, 
+            { 'id': 'TM' }, { 'id': 'KG' }, { 'id': 'TJ' }, { 'id': 'AZ' }, { 'id': 'AM' }, 
+            { 'id': 'GE' }, { 'id': 'MD' }, { 'id': 'UA' }, { 'id': 'BY' }, { 'id': 'PL' }, 
+            { 'id': 'CZ' }, { 'id': 'SK' }, { 'id': 'HU' }, { 'id': 'RO' }, { 'id': 'BG' }, 
+            { 'id': 'RS' }, { 'id': 'SI' }, { 'id': 'HR' }, { 'id': 'BA' }, { 'id': 'ME' }, 
+            { 'id': 'MK' }, { 'id': 'AL' }, { 'id': 'GR' }, { 'id': 'IT' }, { 'id': 'MT' }, 
+            { 'id': 'ES' }, { 'id': 'PT' }, { 'id': 'FR' }, { 'id': 'MC' }, { 'id': 'AD' }, 
+            { 'id': 'CH' }, { 'id': 'DE' }, { 'id': 'LI' }, { 'id': 'AT' }, { 'id': 'LU' }, 
+            { 'id': 'BE' }, { 'id': 'NL' }, { 'id': 'GB' }, { 'id': 'IE' }, { 'id': 'IS' },{ 'id': 'NO' }, { 'id': 'SE' }, { 'id': 'FI' }, { 'id': 'DK' }, { 'id': 'EE' }, 
+            { 'id': 'LV' }, { 'id': 'LT' }, { 'id': 'ZA' }, { 'id': 'NA' }, { 'id': 'BW' }, 
+            { 'id': 'ZW' }, { 'id': 'MZ' }, { 'id': 'SZ' }, { 'id': 'LS' }, { 'id': 'ZM' }, 
+            { 'id': 'MW' }, { 'id': 'AO' }, { 'id': 'CD' }, { 'id': 'CG' }, { 'id': 'GA' }, 
+            { 'id': 'GQ' }, { 'id': 'ST' }, { 'id': 'CM' }, { 'id': 'TD' }, { 'id': 'CF' }, 
+            { 'id': 'SD' }, { 'id': 'SS' }, { 'id': 'UG' }, { 'id': 'KE' }, { 'id': 'TZ' }, 
+            { 'id': 'BI' }, { 'id': 'RW' }, { 'id': 'ET' }, { 'id': 'SO' }, { 'id': 'DJ' }, 
+            { 'id': 'ER' }, { 'id': 'EG' }, { 'id': 'LY' }, { 'id': 'TN' }, { 'id': 'DZ' }, 
+            { 'id': 'MA' }, { 'id': 'EH' }, { 'id': 'MR' }, { 'id': 'ML' }, { 'id': 'SN' }, 
+            { 'id': 'GM' }, { 'id': 'GW' }, { 'id': 'GN' }, { 'id': 'SL' }, { 'id': 'LR' }, 
+            { 'id': 'CI' }, { 'id': 'BF' }, { 'id': 'GH' }, { 'id': 'TG' }, { 'id': 'BJ' }, 
+            { 'id': 'NG' }, { 'id': 'NE' }, { 'id': 'TG' }, { 'id': 'BJ' }, { 'id': 'ZW' },{ 'id': 'PK', 'value': 26.6 },
             { 'id': 'AO', 'value': 21.0 },
             { 'id': 'LK', 'value': 8.9 },
             { 'id': 'ET', 'value': 6.8 },
@@ -153,7 +185,7 @@ const Template = ({ section }) => {
               <div className="mapWrapper">
                 <div id="mapcontainer" ref={mapContainerRef}></div>
               </div>
-              <p>Fig. 2 Data in Billions Retrieved from Marcus Lu (April 2024), Ranked: The Top 20 Countries in Debt to China from "https://www.visualcapitalist.com/ranked-the-top-20-countries-in-debt-to-china/". Retrieved June 21, 2025 from http://en.kremlin.ru/events/president/trips/54504/photos/48320</p>
+              <p className='referencetext'>Data taken from Marcus Lu (April 2024), representing the top 20 countries debted to China, in billions.</p>
           </div>
           
           

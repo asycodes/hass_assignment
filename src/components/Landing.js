@@ -9,7 +9,7 @@ const Landing = () => {
     <div className="landing-container">
       <div className="image-container">
         <img src={briForum} alt="Landing Page Image" />
-        <p>Fig. 1. The Russian Presidential Press and Information Office (2017) Before the beginning of the Belt and Road international forum. Retrieved June 21, 2025 from http://en.kremlin.ru/events/president/trips/54504/photos/48320</p>
+        <p className='referencetext'>Fig. 1. The Russian Presidential Press and Information Office (2017) Before the beginning of the Belt and Road international forum. Retrieved June 21, 2025 from http://en.kremlin.ru/events/president/trips/54504/photos/48320</p>
       </div>
       <div className="title-container">
         <h1>One Belt One Road: </h1>

@@ -6,6 +6,10 @@
     border-radius: 10px;
     background-color: #f7faff;
   }
+  .referencetext{
+    font-size: 0.8em;
+    text-align: center;
+  }
   
   .title {
     font-size: 2em;

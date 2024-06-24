@@ -33,7 +33,7 @@ const NaysayerTemplate = ({ section }) => {
         <h1 className="title">{content.intro}</h1>
         <div className="imagewarpper">
           <img src={content.image} alt="section related" />
-          <p>{content.ref}</p>
+          <p className='referencetext'>{content.ref}</p>
         </div>
         <div className="arguments">
           <div className="for">

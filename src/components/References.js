@@ -62,6 +62,18 @@ const references = [
 ];
 
 
+const referencespic = [
+    {"ref":"The Russian Presidential Press and Information Office (2017) Before the beginning of the Belt and Road international forum. Retrieved June 21, 2025 from http://en.kremlin.ru/events/president/trips/54504/photos/48320"},
+    {"ref":"Reuters (2022) China ready to work with U.S. on B3W initiative. Retrieved June 21, 2025 from https://www.globalvillagespace.com/china-ready-to-work-with-u-s-on-b3w-initiative/"},
+    {"ref":"Paresh Nath (2022), National View: Hypocrisy more than abundant at just-concluded climate summit. Retrieved June 21, 2025 from https://www.duluthnewstribune.com/opinion/columns/national-view-hypocrisy-more-than-abundant-at-just-concluded-climate-summit"}
+]
+
+const referencedata = [
+    {"ref": "Nedopil, C. (2024). China Belt and road initiative (BRI) Investment Report 2023. China Belt and Road Initiative (BRI) Investment Report 2023. https://greenfdc.org/wp-content/uploads/2024/02/Nedopil-2024_China-BRI-Investment-Report-2023.pdf"},
+    {"ref":"Marcus Lu (April 2024), Ranked: The Top 20 Countries in Debt to China, Retrieved June 21, 2025 from https://www.visualcapitalist.com/ranked-the-top-20-countries-in-debt-to-china/"}
+]
+
+
 const References = () => {
     return (
         <div className="reference">
@@ -73,6 +85,25 @@ const References = () => {
                     </li>
                 ))}
             </ul>
+
+            <h2>Data References</h2>
+            <ul>
+                {referencedata.map((ref, index) => (
+                    <li key={index}>
+                        {`${ref.ref}`}
+                    </li>
+                ))}
+            </ul>
+
+            <h2>Photo/Graphics Credit</h2>
+            <ul>
+                {referencespic.map((ref, index) => (
+                    <li key={index}>
+                        {`${ref.ref}`}
+                    </li>
+                ))}
+            </ul>
+
         </div>
     );
 };
